@@ -30,20 +30,20 @@ Customize your display
 	import org.java.util.debug.impl.GetterEvaluator;
 	import org.java.util.debug.impl.StaticStringEvaluator;
 
-Will display the string "My first custom display" in the debugger
+	// Will display the string "My first custom display" in the debugger
 	@DebuggerDisplay(expression = "My first custom display", evaluatorClass = StaticStringEvaluator.class)
 	public class YourObject {
 		// ...
 	}
 
-Will display the value of the "anyField" field in the debugger
+	// Will display the value of the "anyField" field in the debugger
 	@DebuggerDisplay(expression = "anyField", evaluatorClass = FieldEvaluator.class)
 	public class YourObject {
 		private String anyField;
 		// ...
 	}
 
-Will display the value of the "anyGetter" getter in the debugger
+	// Will display the value of the "anyGetter" getter in the debugger
 	@DebuggerDisplay(expression = "anyGetter", evaluatorClass = GetterEvaluator.class)
 	public class YourObject {
 		// ...
