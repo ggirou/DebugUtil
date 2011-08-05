@@ -56,6 +56,7 @@ Customize your display
 
 ### Usual example
 Will evaluate and concat the values
+
 ```java
 	import org.java.util.debug.annotation.DebuggerDisplay;
 	import org.java.util.debug.annotation.DebuggerDisplayBuilder;
@@ -83,6 +84,7 @@ Will evaluate and concat the values
 
 
 ### Spring Expression Language (SpEl) example
+
 ```java
 	import org.java.util.debug.annotation.DebuggerDisplay;
 	import org.java.util.debug.impl.SpelEvaluator;
