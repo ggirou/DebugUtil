@@ -25,6 +25,7 @@ Customize your display
 ----------------------
 
 ### Simples examples
+```java
 	import org.java.util.debug.annotation.DebuggerDisplay;
 	import org.java.util.debug.impl.FieldEvaluator;
 	import org.java.util.debug.impl.GetterEvaluator;
@@ -51,9 +52,12 @@ Customize your display
 			// ...
 		}
 	}
+```
 
 ### Usual example
 Will evaluate and concat the values
+
+```java
 	import org.java.util.debug.annotation.DebuggerDisplay;
 	import org.java.util.debug.annotation.DebuggerDisplayBuilder;
 	import org.java.util.debug.impl.FieldEvaluator;
@@ -76,8 +80,12 @@ Will evaluate and concat the values
 	public class YourObject {
 		// ...
 	}
+```
+
 
 ### Spring Expression Language (SpEl) example
+
+```java
 	import org.java.util.debug.annotation.DebuggerDisplay;
 	import org.java.util.debug.impl.SpelEvaluator;
 
@@ -85,3 +93,4 @@ Will evaluate and concat the values
 	public class YourObject {
 		// ...
 	}
+```
